@@ -1,0 +1,67 @@
+.box{
+    position: relative;
+    width: 260px;
+    height: 380px;
+    margin: auto;
+    border: 1px solid rgb(63, 172, 145);
+    border-radius: 10px;
+}
+.box1{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(212, 223, 233);
+    border-radius: 10px 10px 0px 0;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.box2{
+    width: 100%;
+    height: 30px;
+}
+.inputBox{
+    height: 100%;
+    width: 70%;
+    border: 0;
+    float: left;
+    outline: none;
+    border-radius: 10px;
+}
+.button{    
+    width: 15%;
+    height: 100%;
+    border: 1px solid white;
+    background-color: turquoise;
+    border-radius: 10px;
+}
+.popbox1{
+    position: absolute;
+    width: 140px;
+    height: 70px;
+    text-align: center;
+    background-color:white;
+    border: 1px solid white;
+    border-radius: 10px;
+    line-height: 70px;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation: popz 0.7s;
+}
+.popbox2{
+    position: absolute;
+    width: 140px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color:white;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation: popz 0.7s;
+}
+@keyframes popz{
+    from {opacity:0 ;}
+    to {opacity: 1;}
+}
